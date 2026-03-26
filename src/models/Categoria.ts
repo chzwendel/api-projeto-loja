@@ -3,5 +3,5 @@ export interface Categoria {
     nome: string;
     beneficios: string;
     preco: number;
-    id_categoria: number
+    id_categoria: number;
 }

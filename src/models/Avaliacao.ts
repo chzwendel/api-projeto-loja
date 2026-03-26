@@ -3,5 +3,5 @@ export interface Avaliacao {
     curtida: string;
     estrelas: number;
     comentario: string;
-    id_usuarios: number
+    id_usuarios: number;
 }

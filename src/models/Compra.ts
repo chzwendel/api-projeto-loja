@@ -6,5 +6,5 @@ export interface Compra {
     forma_pagamento: string;
     quantiade: number;
     status: string;
-    data: Date
+    data: Date;
 }

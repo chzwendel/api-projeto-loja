@@ -1,4 +1,5 @@
 export interface Pedido {
+    id?: number;
     numero_pedido?: number;
     forma_pagamento: string;
     status_pagamento: string;
@@ -6,5 +7,5 @@ export interface Pedido {
     id_usuarios: number;
     valor_total: number;
     data_pedido: string;
-    quantidade: number
+    quantidade: number;
 }
