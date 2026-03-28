@@ -4,7 +4,7 @@ export interface Compra {
     numero_casa: string;
     frete: number;
     forma_pagamento: string;
-    quantiade: number;
+    quantidade: number;
     status: string;
     data: Date;
 }
